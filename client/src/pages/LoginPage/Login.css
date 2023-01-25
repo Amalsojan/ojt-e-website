@@ -1,0 +1,137 @@
+
+.border-line {
+    border-right: 2px solid #EEEEEE;
+}
+
+#facebook {
+    font-size: 18px;
+    padding-top: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+#twitter {
+    font-size: 18px;
+    padding-top: 5px;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+#google {
+    font-size: 18px;
+    padding-top: 5px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#lab1 {
+    margin-left: 185px;
+}
+
+#lab2 {
+    margin-left:  185px;
+}
+
+#email {
+    margin-left: 185px;
+}
+
+#password {
+    margin-left: 185px;
+}
+#login{
+    margin-left: 320px;
+    text-align: center;
+}
+
+.line {
+    height: 1px;
+    width: 50%;
+    background-color: #E0E0E0;
+    margin-top: 10px;
+    margin-left: 185px;
+}
+
+.or {
+    width: 10%;
+    font-weight: bold;
+    margin-left: 350px;
+
+}
+
+.text-sm {
+    font-size: 14px !important;
+}
+
+::placeholder {
+    color: #BDBDBD;
+    opacity: 1;
+    font-weight: 300
+}
+
+:-ms-input-placeholder {
+    color: white;
+    font-weight: 300
+}
+
+::-ms-input-placeholder {
+    color: white;
+    font-weight: 300
+}
+
+input,
+textarea {
+    padding: 10px 12px 10px 12px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    width: 50%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #060606;
+    outline-width: 0;
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0;
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+}
+
+.btn-blue {
+    background-color: #16c975;
+    width: 90px;
+    height: 40px;
+    color: #fff;
+    border-radius: 10px;
+
+}
+
+.btn-blue:hover {
+    background-color: rgb(232, 81, 21);
+    cursor: pointer;
+}

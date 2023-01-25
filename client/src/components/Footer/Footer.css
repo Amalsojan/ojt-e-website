@@ -1,0 +1,11 @@
+.footer .copyright-text {
+  /* position: fixed; */
+  display: block;
+  margin-top: 0.7rem;
+  
+}
+.footer{
+  background: rgb(23, 23, 23);
+  background: linear-gradient(180deg, rgb(17, 17, 18) 0%, rgb(19, 19, 19) 100%);
+  width: 100vw;
+}
