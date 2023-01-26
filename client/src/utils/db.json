@@ -1,0 +1,29 @@
+{
+  "customer": [
+    {
+      "id": "raj",
+      "name": "rajksaiij",
+      "email": "admin@gmail.com",
+      "phoneNo": "07979841237",
+      "password": "12345678",
+      "cpassword": "12345678"
+    },
+    {
+      "id": "raj123",
+      "name": "qwersdthfgyujk",
+      "email": "user123@gmail.com",
+      "phoneNo": "07979841237",
+      "password": "12345678",
+      "cpassword": "12345678"
+    },
+    {
+      "id": "Amal",
+      "name": "abishek",
+      "email": "amalpeediacka",
+      "phoneNo": "08281359114",
+      "password": "",
+      "cpassword": ""
+    }
+    
+  ]
+}

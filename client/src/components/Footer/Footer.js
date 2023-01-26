@@ -3,9 +3,8 @@ import "./Footer.css";
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
-
   return (
-    <footer className='footer'>
+    <footer className='footer '>
       <div className="container py-4 text-center">
         <div className='flex align-center justify-center text-white fw-3 fs-14'>
           <div className='header-cnt-top-l'>

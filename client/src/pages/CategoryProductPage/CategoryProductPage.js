@@ -6,6 +6,7 @@ import { useParams } from 'react-router-dom';
 import { getAllProductsByCategory, fetchAsyncProductsOfCategory, getCategoryProductsStatus } from '../../store/categorySlice';
 import Loader from '../../components/Loader/Loader';
 import { STATUS } from '../../utils/status';
+import Navbar1 from '../../components/Navbar/Navbar2';
 
 const CategoryProductPage = () => {
   const dispatch = useDispatch();
@@ -18,6 +19,8 @@ const CategoryProductPage = () => {
   }, [dispatch, category]);
 
   return (
+    <>
+    <Navbar1/>
     <div className='cat-products py-5 bg-whitesmoke'>
       <div className='container'>
         <div className='cat-products-content'>
@@ -31,6 +34,7 @@ const CategoryProductPage = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 

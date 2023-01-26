@@ -10,7 +10,7 @@ import CartModal from "../CartModal/CartModal";
 
 
 
-const Navbar = () => {
+const Navbar1 = () => {
 
 
   const dispatch = useDispatch();
@@ -36,7 +36,7 @@ const Navbar = () => {
           <button type="button" className='sidebar-show-btn text-black' onClick={() => dispatch(setSidebarOn())}>
             <i className='fas fa-bars'></i>
           </button>
-          <Link to="/landingpage" className='navbar-brand flex align-center'>
+          <Link to="/" className='navbar-brand flex align-center'>
             <span className='navbar-brand-ico'>
               <i className='fa-solid fa-bag-shopping' style={{ color: "white" }}></i>
             </span>
@@ -46,9 +46,9 @@ const Navbar = () => {
           </Link>
         </div>
         <div className='navbar-collapse w-100'>
-          <Link to="/login" className='navbar-brand flex align-center'>
+          <Link to="/landingpage" className='navbar-brand flex align-center'>
             <ul className='navbar-nav flex align-flex-end fs-20 fw-7 font-manrope' style={{ marginLeft: '1000px' }}>
-                <span className='fw-7'>Login</span>
+                <span className='fw-7'>Logout</span>
             </ul>
           </Link>
 
@@ -94,7 +94,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar1

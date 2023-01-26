@@ -4,6 +4,7 @@ form {
     align-items: center;
     justify-items: center;
     padding: 20px;
+    margin-left: 200px;
   }
   
   label {
@@ -26,11 +27,12 @@ form {
     margin-top: 5px;
   }
   
-  button {
+  #button {
     background-color: blue;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+    margin-left: -250px;
   }
